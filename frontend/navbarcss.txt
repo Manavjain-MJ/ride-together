@@ -1,0 +1,167 @@
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(255, 184, 184); */
+    /* height: 80px; */
+    /* position: fixed;    */
+    text-align: center;
+}
+
+common-button{
+    background-color: #00aaff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.common-button:hover {
+  background-color: #0088cc;
+}
+
+
+
+
+
+
+
+
+
+.nav12 {
+    /* justify-content: flex-start; */
+    /* display: flex; */
+    /* background-color: rgb(255, 145, 0); */
+    height: 80px;
+}
+
+.nav13 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    right: 90px;
+    /* background-color: blue; */
+    /* height: 80px; */
+}
+
+.image1 {
+    background-image: url(https://steptodown.com/shutterstock-downloader/images/steptodown.com791093.jpg);
+    height: 329px;
+    /* width: 190px; */
+    /* background-repeat: no-repeat; */
+}
+
+.cardmain {
+    /* background-color: black; */
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* gap: 5px; */
+    padding: 8px;
+}
+
+.card1 {
+    background-color: brown;
+    width: 280px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.card2 {
+    background-color: aqua;
+    width: 280px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.card3 {
+    background-color: bisque;
+    width: 280px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.blockmain {
+    background-color: steelblue;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.block1 {
+    background-color: burlywood;
+    width: 460px;
+    padding: 18px 0px;
+}
+
+.block2 {
+    background-color: blueviolet;
+    width: 460px;
+    padding: 18px 0px;
+}
+
+.helpcenter {
+    background-color: aliceblue;
+    height: 720px;
+}
+
+.headerhelpcenter {
+    background-color: chartreuse;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.contenthelpcentermain {
+    display: flex;
+    /* justify-content: space-around; */
+    /* text-align: center; */
+}
+
+.contenthelpcenter {
+    background-color: chocolate;
+    height: 150px;
+    width: 50%;
+
+}
+
+.contentheader1 {
+    padding: 10px;
+}
+
+.content1 {
+    padding: 10px;
+}
+
+.contenthelpcenter1 {
+
+    background-color: crimson;
+    height: 150px;
+    width: 50%;
+}
+
+
+.contentheader2 {
+    padding: 10px;
+}
+.content2{
+    padding: 10px;
+}
+.buttonmain{
+    background-color: beige;
+    height: 80px;
+    text-align: center;
+    /* top: 10px; */
+}
+.button1{
+    padding: 19px;
+}
+button{
+    padding: 10px;
+    border-radius: 11px;
+}

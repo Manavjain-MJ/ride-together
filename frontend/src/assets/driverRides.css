@@ -1,0 +1,196 @@
+.driver-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dashboard-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dashboard-content {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.ride-list {
+    width: 35%;
+    /* Updated width */
+    padding: 20px;
+    border-right: 2px solid #ccc;
+}
+
+.ride-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* .ride-card:hover {
+    transform: scale(1.05);
+} */
+
+.driver-ride-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 12px;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); */
+    margin-bottom: 16px;
+    font-family: "Segoe UI", sans-serif;
+    gap: 8px;
+}
+
+.driver-ride-info h4.route {
+    margin: 0;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.ride-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 14px;
+    color: #444;
+}
+
+.ride-meta>div {
+    background: #eef1f5;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+
+.time,
+.price {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.status-tag {
+    font-size: 1.1rem;
+    /* margin-top: 20px; */
+}
+
+.driver-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.driver-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.driver-rating {
+    font-size: 1rem;
+    color: #333;
+}
+
+.driver-controls {
+    margin-top: 15px;
+}
+
+.driver-controls button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.driver-controls button:hover {
+    background-color: #19b2ff;
+}
+
+.completed-label {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.ride-chatbox {
+    width: 65%;
+    padding: 20px;
+    min-height: 500px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.chat-placeholder {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-instruction {
+    color: #999;
+    font-size: 1rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button {
+    padding: 6px 12px;
+    margin: 5px 5px 5px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+.accept-btn {
+    background-color: #28a745;
+}
+
+.reject-btn {
+    background-color: #dc3545;
+}
+
+.message-btn {
+    background-color: #17a2b8;
+}
+
+
+.status-tag strong {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.status-tag strong.in-progress {
+    color: orange;
+}
+
+.status-tag strong.completed {
+    color: green;
+}
+
+.status-tag strong.not-started {
+    color: blue;
+}

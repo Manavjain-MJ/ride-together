@@ -1,0 +1,102 @@
+/* Ride Posting Form Container */
+.ride-posting-container {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.ride-posting-container h2 {
+    text-align: center;
+    color: #005a8d;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Form Layout */
+.ride-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.ride-form label {
+    font-weight: 600;
+    color: #333;
+    margin-top: 12px;
+}
+
+/* Input & Select Fields */
+.ride-form input,
+.ride-form select,
+.ride-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #bbb;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    background: #f8f9fa;
+}
+
+/* Input Focus Effect */
+.ride-form input:focus,
+.ride-form select:focus,
+.ride-form textarea:focus {
+    outline: none;
+    border-color: #00aaff;
+    box-shadow: 0 0 8px rgba(0, 170, 255, 0.3);
+    background: white;
+}
+
+/* Textarea Styling */
+.ride-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Checkboxes */
+.ride-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* Buttons - Submit Ride */
+.ride-form button {
+    /* background: linear-gradient(135deg, #00aaff, #0077cc); */
+    background-color: #00aaff;  
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 170, 255, 0.2);
+    margin-top: 20px;
+}
+
+/* Button Hover & Active */
+.ride-form button:hover {
+    background: linear-gradient(135deg, #0077cc);
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 170, 255, 0.3);
+}
+
+.ride-form button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 3px 6px rgba(0, 170, 255, 0.15);
+}
+
+/* Responsive - Mobile View */
+@media screen and (max-width: 600px) {
+    .ride-posting-container {
+        width: 90%;
+    }
+}

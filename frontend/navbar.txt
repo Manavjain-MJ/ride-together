@@ -1,0 +1,43 @@
+ <div>
+      <div className='nav1'>
+        <div className='nav12'><h1>RideTogether</h1></div>
+        <div className='nav13'><h3>Search</h3>
+          <h3>Publish A Ride</h3>
+        </div>
+      </div>
+      <div>
+        <div className='image1'>
+        </div>
+        <div className='cardmain'>
+          <div className='card1'>content one</div>
+          <div className='card2'>content two</div>
+          <div className='card3'>content three</div>
+        </div>
+      </div>
+      <div className='blockmain'>
+        <div className='block1'>
+          Secondary Image
+        </div>
+        <div className='block2'>
+          content about Image
+        </div>
+      </div>
+      <div className='helpcenter'>
+        <div className='headerhelpcenter'>RideTogether Help Center</div>
+        <div className='contenthelpcentermain'>
+          <div className='contenthelpcenter'>
+            <div className='contentheader1'>content header1</div>
+            <div className='content1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima eius odit tempora accusantium eos quaerat, magnam id pariatur dicta veritatis error laudantium, unde quisquam recusandae blanditiis obcaecati dolor? Nam.</div>
+          </div>
+          <div className='contenthelpcenter1'>
+            <div className='contentheader2'>content header2</div>
+            <div className='content2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quasi, ab eligendi minima atque delectus sint, iure cum laudantium commodi non illum quo eveniet! Animi quasi quod cupiditate voluptate quos.</div>
+          </div>
+        </div>
+        <div className='buttonmain'>
+          <div className='button1'>
+          <button>Read Our Help Center</button>
+          </div>
+          </div>
+      </div>
+    </div>

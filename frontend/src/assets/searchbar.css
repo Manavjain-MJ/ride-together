@@ -1,0 +1,132 @@
+/* Search Bar Container */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+}
+
+/* Main Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1100px;
+    overflow: visible;
+    position: relative;
+}
+
+/* Input Groups */
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 20px;
+    flex: 1;
+    transition: background 0.3s;
+    position: relative;
+    min-height: 50px
+    /* z-index: 1; */
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    background: transparent;
+    color: #333;
+}
+
+/* Swap Button */
+.swap-btn {
+    /* background: f1f3f4; */
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+}
+
+/* Search Button */
+.search-btn {
+    background: #009dff;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+    background: #007acc;
+    transform: translateY(-2px);
+}
+
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    /* max-height: 200px;    */
+    overflow-y: auto;
+    width: 100%;
+    z-index: 9999;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.pac-container {
+    z-index: 9999 !important;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 4px !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+        gap: 8px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .input-group {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .search-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

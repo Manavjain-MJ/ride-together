@@ -1,0 +1,153 @@
+.govtid-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.govtid-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #1f1f1f;
+}
+
+.govtid-note {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.govtid-options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.govtid-option-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.govtid-option-item:hover {
+    background-color: #eef2f6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.govtid-option-item.selected {
+    background-color: #dbeeff;
+    border-color: #4ea9ff;
+}
+
+.govtid-option-item.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.govtid-option-title {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.govtid-chevron {
+    font-size: 14px;
+    color: #555;
+}
+
+.govtid-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.govtid-form-label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.govtid-input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.govtid-input:focus {
+    border-color: #4ea9ff;
+}
+
+.govtid-submit-btn {
+    margin-top: 8px;
+    background-color: #4ea9ff;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.govtid-submit-btn:hover {
+    background-color: #3094e0;
+}
+
+.saved-id-section {
+    margin-top: 30px;
+}
+
+.saved-id-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.saved-id-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.saved-id-item {
+    background: #f1f1f1;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.saved-id-item .actions button {
+    margin-left: 8px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.saved-id-item .actions button:hover {
+    text-decoration: underline;
+}
+
+.error-msg {
+    color: #d33;
+    font-size: 13px;
+}
