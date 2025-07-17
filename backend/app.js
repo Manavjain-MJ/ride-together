@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+require('dotenv').config();
 const {app,server}=require("./src/socket/Socket")
 // const createProfilesForExistingUsers = require("./src/utils/CreateProfileForUtils");
 
