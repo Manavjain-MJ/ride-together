@@ -2,8 +2,8 @@ const cloudinary = require("cloudinary").v2;
 
 cloudinary.config({
   cloud_name: "dybin4ift",
-  api_key: "365442834899926",
-  api_secret: "vV_8onrdCklf0cniqcnrnlZcAX0",
+  api_key: "",
+  api_secret: "",
 });
 const uploadFileToCloudinary = async (fileBuffer) => {
   return new Promise((resolve, reject) => {

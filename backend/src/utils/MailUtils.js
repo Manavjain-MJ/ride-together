@@ -5,7 +5,7 @@ const sendingMail = async (to, subject, text) => {
     service: "gmail",
     auth: {
       user: "ridetogether3@gmail.com",
-      pass: "",
+      pass: "omkg webm wuji pnwp",
     },
   });
   const mailOptions = {
